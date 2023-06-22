@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .inputs {
+    border-bottom: 2px solid #e5e7eb;
+    outline: none;
+    font-size: 1rem;
+  }
+  .card {
+    @apply bg-white text-gray-700
+    w-72 min-h-[10rem]
+    shadow-lg rounded-md overflow-hidden;
+  }
+  .title {
+    @apply font-bold text-center py-2;
+  }
+  .paragraph {
+    @apply text-center py-2;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
